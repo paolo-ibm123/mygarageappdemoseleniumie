@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.example.selenium.demo.IEBrowserTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.11 s <<< FAILURE! - in com.example.selenium.demo.IEBrowserTest
+testHtml(com.example.selenium.demo.IEBrowserTest)  Time elapsed: 4.964 s  <<< ERROR!
+org.openqa.selenium.JavascriptException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-SECJ9OQ', ip: '10.238.14.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35887/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 87ad74d7-7224-45fd-ba07-7e5359243ec5
+*** Element info: {Using=name, value=date}
+	at com.example.selenium.demo.IEBrowserTest.testHtml(IEBrowserTest.java:41)
+
